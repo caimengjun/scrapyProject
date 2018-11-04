@@ -41,14 +41,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1831805015">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="107" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="107" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jinyong/spiders/novel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="509">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -56,20 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jinyong/pipelines.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jinyong/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="164">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jinyong/settings.py">
+        <entry file="file://$PROJECT_DIR$/jinyong/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="-29">
+              <caret line="109" column="27" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="27" />
+              <folding>
+                <element signature="e#169#195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,8 +112,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/jinyong/pipelines.py" />
-        <option value="$PROJECT_DIR$/jinyong/settings.py" />
         <option value="$PROJECT_DIR$/jinyong/spiders/novel.py" />
+        <option value="$PROJECT_DIR$/jinyong/middlewares.py" />
+        <option value="$PROJECT_DIR$/jinyong/settings.py" />
       </list>
     </option>
   </component>
@@ -92,10 +125,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="23" />
-    <option name="width" value="1251" />
-    <option name="height" value="635" />
+    <option name="x" value="136" />
+    <option name="y" value="63" />
+    <option name="width" value="975" />
+    <option name="height" value="629" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -107,13 +140,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="jinyong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinyong1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinyong1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jinyong1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinyong1" type="462c0819:PsiDirectoryNode" />
               <item name="jinyong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="jinyong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinyong1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jinyong1" type="462c0819:PsiDirectoryNode" />
               <item name="jinyong" type="462c0819:PsiDirectoryNode" />
-              <item name="jinyong" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,10 +202,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="23" width="1251" height="635" extended-state="0" />
+    <frame x="136" y="63" width="975" height="629" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2076096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22508039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -180,7 +219,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50101215" side_tool="true" weight="0.3220974" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49898785" weight="0.34438306" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49898785" weight="0.3463687" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49898785" weight="0.32958803" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -205,32 +244,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jinyong/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jinyong/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jinyong/spiders/novel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="509">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jinyong/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/jinyong/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="-29">
+          <caret line="109" column="27" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="27" />
+          <folding>
+            <element signature="e#169#195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jinyong/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="164">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
